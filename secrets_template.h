@@ -1,5 +1,5 @@
-#ifndef _WIFI_SECRETS_
-#define _WIFI_SECRETS_
+#ifndef _SECRETS_
+#define _SECRETS_
 
 static const char* config_host = "yourconfighostname";
 static const char* config_url = "yourconfigapiurl";
@@ -18,5 +18,5 @@ static const char* ENTERPRISE_WIFI_SSID = "BigCorpWifi";
 static const char* ENTERPRISE_WIFI_USER = "me";
 static const char* ENTERPRISE_WIFI_PASS = "password";
 
-#endif // _WIFI_SECRETS_
+#endif // _SECRETS_
 
