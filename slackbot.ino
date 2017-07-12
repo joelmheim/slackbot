@@ -25,9 +25,8 @@ int resetEvent;
 int wifiEvent;
 int userEvent;
 
-// Pin for buttons (buttons share one analog pin)
+// Pin for buttons (buttons share one analog pin) -- Need to move this to pinlayout.h
 const int BUTTON_PIN = A0; 
-
 
 MFRC522 rfid(RFID_SS_PIN, RFID_RST_PIN); // Instance of the class
 MFRC522::MIFARE_Key key; 
